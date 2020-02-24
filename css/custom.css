@@ -1,0 +1,75 @@
+/*Theme Colors*/
+:root {
+     --theme-purple: #571845;
+     --theme-orange: #FF5733;
+     --theme-indigo: #900C3E;
+     --theme-redish-brown: #C70039;
+     --theme-cab-yellow:#FFC300;
+     --theme-default-text-color:#6C6767;
+}
+
+.test-purple{
+    background-color: var(--theme-purple);
+}
+
+.test-yellow{
+    background-color: var(--theme-cab-yellow);
+}
+
+/*Header*/
+.logo {
+    width: 100px;
+}
+
+.header{
+    text-align: left;
+    padding:10px;
+}
+
+.main-nav {
+ background-color: var(--theme-purple);
+ color: #fff;
+}
+
+/*Jumbotron*/
+.hero
+{
+    height: 79vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    color:white;
+}
+
+.hero p{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/*Backgrounds*/
+
+.bg-theme-purple{
+background-color: var(--theme-purple);
+}
+
+/*Buttons*/
+
+.hero-button
+{
+    border: var(--theme-purple);
+}
+.hero-button:hover{
+    background-color:var(--theme-redish-brown);
+}
+
+.skill-level-indicator
+{
+    height: 35px;
+}
+
+.skill-level-indicator > .progress-bar
+{
+    background-color: var(--theme-orange);
+}
+
+
+
