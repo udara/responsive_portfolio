@@ -1,0 +1,11 @@
+
+U - #571845 (Purple)
+Dot - FF5733 (Orange)
+First Wing - #900C3E (Indigo) 
+Second Wing - #900C3E (Redish Brown)
+Third Wing - FFC300 (Cab Yello)
+
+Text - #6C6767
+
+border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% 
+border-radius: 31% 69% 52% 48% / 0% 40% 60% 100%
