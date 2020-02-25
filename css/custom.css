@@ -70,6 +70,19 @@
     background-color: var(--theme-orange);
 }
 
+/*About Me*/
+
+.profile-pic{
+    width:100%;
+    max-width:200px;
+    padding:10px;
+    border:1px solid rgb(243, 242, 242);
+    background: #f5f5f5;
+    border-radius: 90%;
+    text-align: center;
+    margin: auto auto 5% auto;
+}
+
 
 
 
