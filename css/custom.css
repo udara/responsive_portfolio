@@ -16,8 +16,9 @@
     background-color: var(--theme-cab-yellow);
 }
 
+
 /*Header*/
-.logo {
+.logo{
     width: 100px;
 }
 
@@ -40,36 +41,35 @@
     color:white;
 }
 
-.hero p{
-    font-size: 1.5rem;
-    font-weight: 300;
-}
 
-/*Backgrounds*/
-
-.bg-theme-purple{
-background-color: var(--theme-purple);
-}
-
-/*Buttons*/
-
-.hero-button
-{
+.hero-button{
     border: var(--theme-purple);
+    background-color: var(--theme-purple);
 }
+
 .hero-button:hover{
     background-color:var(--theme-redish-brown);
 }
 
-.skill-level-indicator
-{
-    height: 35px;
+/*Skill Level Section*/
+
+.skill-level-indicator-container{
+    margin-top:20px;
 }
 
-.skill-level-indicator > .progress-bar
-{
+.skill-text{
+    line-height:35px;
+}
+
+.skill-level-indicator{
+    height: 35px;
+    border-radius:0;
+}
+
+.skill-level-indicator > .progress-bar{
     background-color: var(--theme-orange);
 }
+
 
 
 
