@@ -103,7 +103,7 @@ p{
 }
 
 .project-main{
-    background: var(--light);
+    background: #f5f5f5;
 }
 
 .project-2{
@@ -123,5 +123,5 @@ p{
 }
 
 .footer{
-    
+    background: #ececec;
 }
