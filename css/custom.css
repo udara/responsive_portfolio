@@ -16,6 +16,11 @@
     background-color: var(--theme-cab-yellow);
 }
 
+p{
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
 
 /*Header*/
 .logo{
@@ -84,5 +89,39 @@
 }
 
 
+/*Project Gallery*/
 
 
+.project-main, .project-sub{
+    width: 100%;
+    padding: 1.5%;
+    margin: 0;
+}
+
+.project-thumb{
+    width:100%;
+}
+
+.project-main{
+    background: var(--light);
+}
+
+.project-2{
+    background: #fafafa;
+}
+
+.project-3{
+    background: #f5f5f5;
+}
+
+.project-4{
+    background: #ececec;
+}
+
+.project-5{
+    background: #dedede;  
+}
+
+.footer{
+    
+}
