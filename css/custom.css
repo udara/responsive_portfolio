@@ -1,3 +1,11 @@
+/*
+<576px	Small
+≥576px	Medium
+≥768px	Large
+≥992px	Extra large
+≥1200px
+*/
+
 /*Theme Colors*/
 :root {
      --theme-purple: #571845;
@@ -24,7 +32,7 @@ p{
 
 /*Header*/
 .logo{
-    width: 100px;
+    width: 80px;
 }
 
 .header{
@@ -90,11 +98,17 @@ p{
 
 
 /*Project Gallery*/
-
+.project-thump
+{
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin: 0;
+}
 
 .project-main, .project-sub{
     width: 100%;
-    padding: 1.5%;
+    padding:0;
     margin: 0;
 }
 
@@ -115,13 +129,67 @@ p{
 }
 
 .project-4{
-    background: #ececec;
+    background: #f1eeee;
 }
 
 .project-5{
-    background: #dedede;  
+    background: #eaeaea;  
 }
 
 .footer{
     background: #ececec;
+}
+
+/*Icons*/
+
+.fab{
+    font-size:48px;
+    color:#dedede; 
+}
+
+.fa-html5
+{
+    color: #fbcdb3;
+}
+
+.fa-js-square
+{
+    color:#fae38f;
+}
+
+.fa-react
+{
+    color:#a9ddff;
+}
+
+.fa-bootstrap{
+    color:#e7cefe;
+}
+
+.fa-node-js{
+    color:#91f3b8;
+}
+
+header .fab{
+    margin-right: 20px;
+}
+
+
+header .fab:hover{
+    opacity:0.8;
+    cursor: pointer;
+}
+
+.fa-stack-overflow{
+    color: var(--theme-orange);
+    line-height: 90px;
+    
+}
+
+.fa-git{
+    color: var(--theme-purple);
+}
+
+.fa-linkedin{
+    color: cornflowerblue;
 }
