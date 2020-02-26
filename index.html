@@ -19,12 +19,16 @@
       <div class="container">
         <div class="row header">
             <div class="col-4">
-            <img src="img/udara_logo.JPG" class="logo">
+            <img src="img/udara_logo.JPG" class="logo" alt="letter U with three wings on the left">
             </div>
-            <div class="col-8 text-right" >
-              <i class="fab fa-stack-overflow"></i>
-              <i class="fab fa-git"></i>
-              <i class="fab fa-linkedin"></i>
+            <div class="col-8 text-right">
+              <div class="row">
+                <div class="col-12">
+                  <a href="https://stackexchange.com/users/17316425/udara-ranasinghe" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+                  <a href="http://github.com/udara" target="_blank"><i class="fab fa-git"></i></a>
+                  <a href="https://www.linkedin.com/in/udara-ranasinghe-535b2b70/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
             </div>
         </div>
         </div>
@@ -61,13 +65,17 @@
      <!-- Jumbotron -->
      <div class="jumbotron jumbotron-fluid hero">
       <div class="container">
-        <h1 class="display-4" style="padding-top: 12%;">Udara Ranasinghe</h1>
-        <p class="lead">Aspiring junior web developer</p>
-        <hr class="display-3">
-        <p>I'm currently learning to develop websites using HTML, CSS, <br>Javascript as frontend technologies.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg bg-theme-purple hero-button" href="Jumbo action link" role="button">Checkout my work</a>
-        </p>
+          <div class="row">
+            <div class="col-12 ">
+              <h1 class="display-4">Udara Ranasinghe</h1>
+              <p class="lead">Aspiring junior web developer</p>
+              <hr class="display-3">
+              <p>I'm currently learning to develop websites using HTML, CSS, <br>Javascript as frontend technologies.</p>
+              <p class="lead">
+              <a class="btn btn-primary btn-lg bg-theme-purple hero-button" href="#project_gallery" role="button">Checkout my work</a>
+              </p>
+            </div>
+          </div>
       </div>
     </div>
     <!-- /Jumbotron -->
@@ -146,7 +154,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 p-4">
-            <h2 class="display-7 font-weight-normal mb-5">Some of my projects</h2>
+            <h2 class="display-7 font-weight-normal mb-5" id="project_gallery">Some of my projects</h2>
             <div class="row pl-2 pr-2">
               <!--project gallery left-->
               <div class="col-lg-6 project project-main">
@@ -219,11 +227,11 @@
     </main>
 
     <footer>
-      <div class="container-fluid footer Sticky" id="sticky-footer">
-        <div class="container">
+      <div class="container-fluid footer Sticky" id="sticky-footer" style="border-top:1px solid #ccc; position:fixed; opacity:.8; bottom:0; left:0">
+        <div class="container pt-2 pb-2">
           <div class="row">
             <div class="col text-center">
-              <p>Footer</p>
+              <img src="img/udara_logo.jpg" class="footer-logo">
             </div>
           </div>
         </div>
