@@ -16,6 +16,10 @@
      --theme-default-text-color:#6C6767;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .test-purple{
     background-color: var(--theme-purple);
 }
@@ -40,18 +44,35 @@ p{
     padding:10px;
 }
 
+header .fab{
+    margin-right: 10px;
+    font-size: 35px;
+}
+
+
+header .fab:hover{
+    opacity:0.8;
+    cursor: pointer;
+}
+
 .main-nav {
  background-color: var(--theme-purple);
  color: #fff;
 }
 
+
 /*Jumbotron*/
+.jumbotron
+{
+    min-height: 400px;
+}
 .hero
 {
     height: 79vh;
     background-image: url(../img/bg.JPG);
     background-size: cover;
     color:white;
+    background-position: left;
 }
 
 .lead{
@@ -140,11 +161,7 @@ p{
     background: #eaeaea;  
 }
 
-.footer{
-    background: #ececec;
-}
-
-/*Icons*/
+/*Font Awsome*/
 
 .fab{
     font-size:48px;
@@ -174,16 +191,6 @@ p{
     color:#91f3b8;
 }
 
-header .fab{
-    margin-right: 20px;
-}
-
-
-header .fab:hover{
-    opacity:0.8;
-    cursor: pointer;
-}
-
 .fa-stack-overflow{
     color: var(--theme-orange);
     line-height: 90px;
@@ -196,4 +203,24 @@ header .fab:hover{
 
 .fa-linkedin{
     color: cornflowerblue;
+}
+
+
+/*Footer*/
+.footer{
+    background: #fafafa;
+    transition: height 1s;
+    height: 0;
+}
+
+.footer-logo {
+    max-width:60px;
+    background-color: white;
+    border-radius: 90px;
+    border: 10px white solid;
+}
+
+.footer-heading
+{
+    font-size:1rem;
 }
