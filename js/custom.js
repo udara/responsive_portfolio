@@ -34,3 +34,8 @@ $(window).on('scroll', function (){
       $('.footer').css('height','0');
     }
 });
+
+
+	$('.handle').on('click',function(){								 
+	$('nav ul').toggleClass('show_menu')
+	});
