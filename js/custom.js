@@ -13,14 +13,16 @@ $(window).on('load resize', function () {
 function resizeGallery(){
   var projectMainWidth = $('.project-main').width();
   var projectSubWidth = $('.project-sub').width();
+  var portFolioBox = $('.portfolio-box').width();
   projectSubWidth = projectSubWidth + 16;
   $('.project-main').css({'min-height':projectMainWidth+'px'});
   $('.project-sub').css({'min-height':projectSubWidth+'px'});
+  //$('.portfolio-box').css({'min-height':portFolioBox+'px'});
 }
 
 /* Show || Hide sticky footer when scrolled to wondow.height = var footerOffHeight*/
 var windowHeight = $(window).height();
-var footerOffHeight = windowHeight * .95;
+var footerOffHeight = windowHeight * .30;
 var footerHeight = 90; 
 var addextraheight = $('body').height() + footerHeight; 
 

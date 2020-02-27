@@ -55,63 +55,85 @@ header .fab:hover{
     cursor: pointer;
 }
 
-
-
+/*
+.main-nav {
+ background-color: var(--theme-purple);
+ color: #fff;
+}*/
 
 /* Raw Nav*/
 
-.main-nav {
-    background-color: var(--theme-purple);
-    color: #fff;
-}
-
-nav {
+nav 
+	{
 
     background-color: var(--theme-purple);
+    text-align: center;
 	color:#fff;
 	margin:0;
 	font-size:.9em;
-}
+	}
 
-nav ul {
+nav ul 
+	{
     overflow: hidden;
     font-weight: 100;
     padding: 0;
     margin: 0;
+    -webkit-transition: max-height .4s;
+    -ms-transition: max-height .4s;
+    -moz-transition: max-height .4s;
+    -o-transition: max-height .4s;
     transition: max-height .4s
-}
+	}
 
-nav ul li {
+nav ul li 
+	{
     display: inline-block;
-    padding: 0 30px 0 0;
-}
+    padding: 0 20px 0 20px;
+	}
 
 
-nav ul, nav ul a, nav ul li {
+nav ul, nav ul a, nav ul li 
+	{
     line-height: 45px;
-}
+	}
 
-nav ul a, nav ul a:visited {
+nav ul a, nav ul a:visited 
+	{
     color: #fff;
-}
+	}
 
-.handle, nav ul {
+.handle, nav ul 
+	{
     font-size: 1.3em
-}
+	}
 
 
-nav ul a:hover {
+nav ul a:hover 
+	{
     color:#666;
-}
+	}
 
-.handle {
+.handle 
+	{
+    width: 100%;
+    text-align: right;
+    line-height: 40px;
+    cursor: pointer;
+    color: #FFF;
     display: none;
-}
+    margin-left: 10px;
+    margin-top:0;
+	}
 
 @media (max-width: 576px) {
 
     nav ul {
         line-height: 48px;
+        -webkit-transition: max-height .4s;
+        -ms-transition: max-height .4s;
+        -moz-transition: max-height .4s;
+        -o-transition: max-height .4s;
         transition: max-height .4s;
         max-height: 0;
     }
@@ -125,9 +147,8 @@ nav ul a:hover {
     .handle {
         display: block;
         text-align: right;
-        padding-right:10px;
+        width: 95%;
         line-height: 45px;
-        cursor: pointer;
     }
 
     .show_menu {
@@ -236,29 +257,6 @@ nav ul a:hover {
     background: #eaeaea;  
 }
 
-/*Portfolio*/
-
-.portfolio-box {
-
-}
-
-.portfolio-box img{
-    width: 100%;
-    height: auto;
-    opacity: .6;
-}
-
-.portfolio-box-title{
-    position:relative; 
-    text-align: right; 
-    bottom:25%;
-    right:0;  
-    padding:5px; 
-    width:80%;  
-    background-color: var(--theme-orange);
-    color: white;
-}
-
 /*Font Awsome*/
 
 .fab{
@@ -309,11 +307,6 @@ nav ul a:hover {
     background: #fafafa;
     transition: height 1s;
     height: 0;
-    border-top:1px solid #ccc; 
-    position:fixed; 
-    opacity:.8; 
-    bottom:0; 
-    left:0;
 }
 
 .footer-logo {
