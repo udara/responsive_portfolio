@@ -334,5 +334,7 @@ nav ul a:hover {
 
 /*Contact*/
 .contact-image{
-width: 100%; opacity: .5;
+width: 100%;
+height: auto;
+opacity: .5;
 }
