@@ -316,6 +316,10 @@ nav ul a:hover {
     left:0;
 }
 
+.visible-on-load{
+    height: 90px;
+}
+
 .footer-logo {
     max-width:60px;
     background-color: white;
