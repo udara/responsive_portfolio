@@ -20,6 +20,10 @@ function resizeGallery(){
   //$('.portfolio-box').css({'min-height':portFolioBox+'px'});
 }
 
+function goToSlide(number) {
+  $("#carousel").carousel(number);
+}
+
 /* Show || Hide sticky footer when scrolled to wondow.height = var footerOffHeight*/
 var windowHeight = $(window).height();
 var footerOffHeight = windowHeight * .30;
@@ -38,6 +42,4 @@ $(window).on('scroll', function (){
 });
 
 
-	$('.handle').on('click',function(){								 
-	$('nav ul').toggleClass('show_menu')
-	});
+
